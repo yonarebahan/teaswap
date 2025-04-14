@@ -11,7 +11,7 @@ support channel Airdrop Sambil Rebahan : https://t.me/kingfeeder
 git clone https://github.com/tudeiy/teaswap.git
 cd teaswap
 ```
-**Create Screen**
+**Create Screen (opsional)**
 ```
 screen -S teaswap
 ```
