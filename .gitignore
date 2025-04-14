@@ -1,0 +1,26 @@
+# 🛑 Ignore node_modules
+node_modules/
+
+# 🛑 Ignore environment config
+.env
+
+# 🛑 Ignore log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🛑 Ignore OS artifacts
+.DS_Store
+Thumbs.db
+
+# 🛑 Ignore editor settings
+.vscode/
+.idea/
+
+# 🛑 Ignore Linux system file
+*.swp
+
+# 🛑 Ignore compiled output
+dist/
+build/
