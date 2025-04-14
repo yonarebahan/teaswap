@@ -130,13 +130,13 @@ function sleep(ms) {
     const amountIn = ethers.parseUnits(randAmount, 18);
 
     await swapETHToToken(amountIn, randToken.address, randToken.name);
-    const delay = Math.floor(Math.random() * (25 - 20 + 1) + 20) * 1000;
+    const delay = Math.floor(Math.random() * (30 - 20 + 1) + 20) * 1000;
     console.log(`⏳ Menunggu ${delay / 1000} detik...\n`);
     await sleep(delay);
 
     console.log(`↩️ Swap balik ${randToken.name} → TEA...`);
     await swapTokenToETH(randToken.address, randToken.name);
-    const delay2 = Math.floor(Math.random() * (25 - 20 + 1) + 20) * 1000;
+    const delay2 = Math.floor(Math.random() * (30 - 20 + 1) + 20) * 1000;
     console.log(`⏳ Menunggu ${delay2 / 1000} detik...\n`);
     await sleep(delay2);
   }
